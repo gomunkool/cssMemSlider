@@ -76,6 +76,9 @@ h6 {
 body {
   background-color: rgb(219, 193, 159);
 }
+.wraper {
+  padding: 0 2rem;
+}
 .contaner {
   margin: 5rem auto;
   max-width: 91rem;
@@ -147,7 +150,10 @@ input[name='radio'] {
   border: solid 4px rgb(184, 86, 197);
   background: rgb(184, 86, 197);
 }
-
+.control:active .control__cirle {
+  border: solid 4px red;
+  background: rgb(184, 86, 197);
+}
 #point-one:checked ~ .slides {
   margin-left: 0;
 }
