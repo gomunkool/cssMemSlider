@@ -105,6 +105,11 @@ img {
   justify-content: end;
   margin: 0 0 5em 0;
 }
+@media (max-width: 786px) {
+  .controls {
+    justify-content: center;
+  }
+}
 .phrases__wraper {
   width: 50rem;
   overflow: hidden;
@@ -129,6 +134,16 @@ input[name='radio'] {
   display: flex;
   justify-content: space-between;
   margin: -4rem 0 0 0;
+}
+@media (max-width: 786px) {
+  .points-style {
+    margin: -7rem 0 0 0;
+  }
+}
+@media (max-width: 555px) {
+  .points-style {
+    margin: -10rem 0 0 0;
+  }
 }
 .control {
   height: 4rem;
